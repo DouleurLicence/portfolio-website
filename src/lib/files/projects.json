@@ -1,0 +1,20 @@
+[
+  {
+    "id": 0,
+    "title": "PMS",
+    "description": "blabla",
+    "image": "https://picsum.photos/200",
+    "tags": ["Management", "Risk analysis"],
+    "type": "Group-7",
+    "scholar": true
+  },
+  {
+    "id": 0,
+    "title": "Zoglu",
+    "description": "blabla",
+    "image": "https://picsum.photos/200",
+    "tags": ["Management", "Risk analysis"],
+    "type": "Group-7",
+    "scholar": true
+  }
+]
