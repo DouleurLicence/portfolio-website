@@ -6,6 +6,8 @@
 
   import tagSettings from "/src/lib/files/tags.json"
   import ProjectModal from "./ProjectModal.svelte";
+  import Fa from "svelte-fa";
+  import { faUser, faUserGroup } from "@fortawesome/free-solid-svg-icons";
 
   const modalStore = getModalStore();
 
@@ -46,11 +48,19 @@
   <!-- Summary -->
   <p class="mb-4">{project.summary}</p>
 
+  <!-- TODO: The footer has to be sticky to the bottom !! -->
   <!-- Footer -->
   <div>
     <hr class=""/>
-    <footer class="flex mt-4 place-content-between">
-      <span class="badge">{project.type}</span>
+    <footer class="flex items-center mt-4 place-content-between">
+      <span class="badge">
+        {#if project.type === "Solo"}
+          <Fa icon={faUser} />
+        {:else}
+          <Fa icon={faUserGroup} />
+        {/if}
+        <span>{project.type}</span>
+      </span>
       <span class="badge font-thin">
         {project.startDate}
         <!-- Adds the end date -->
