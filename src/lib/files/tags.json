@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Management",
+    "color": "secondary"
+  },
+  {
+    "name": "Networks",
+    "color": "success"
+  },
+  {
+    "name": "Infrastructure",
+    "color": "primary"
+  },
+  {
+    "name": "Telecoms",
+    "color": "tertiary"
+  },
+  {
+    "name": "Risk analysis",
+    "color": "error"
+  }
+]

@@ -27,6 +27,7 @@
 
 	// Drawer init
 	import { getDrawerStore } from "@skeletonlabs/skeleton";
+	import Footer from "../lib/components/Footer.svelte";
 	initializeStores();
 	const drawerStore = getDrawerStore();
 
@@ -46,7 +47,7 @@
 		<!-- App Bar -->
 		<AppBar>
 			<svelte:fragment slot="lead">
-				<div on:click={drawerOpen}>
+				<div on:click={drawerOpen} class="lg:hidden">
 					<Fa icon={faBars} class="m-2" />
 				</div>
 				<strong class="text-xl uppercase">
@@ -54,6 +55,16 @@
 				</strong>
 
 			</svelte:fragment>
+
+			<!-- Only displayed for big screens -->
+			<nav class="hidden list-nav lg:block">
+				<ul class="flex items-center justify-center">
+					<li><a href="/projects">Projects</a></li>
+					<li><a href="/about">About me</a></li>
+					<li><a href="/contact">Contact</a></li>
+				</ul>
+			</nav>
+
 			<svelte:fragment slot="trail">
 				<LightSwitch />
 				<a
@@ -76,6 +87,11 @@
 			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>
+
 	<!-- Page Route Content -->
 	<slot />
+
+	<svelte:fragment slot="footer">
+		<Footer />
+	</svelte:fragment>
 </AppShell>
