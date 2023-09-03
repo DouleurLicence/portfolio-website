@@ -2,22 +2,22 @@
   {
     "id": 0,
     "title": "PMS",
-    "summary": "blabla",
-    "longDescription": "This is a really long description",
-    "image": "https://picsum.photos/200",
+    "summary": "Completion of a Post-Merger Integration of two fictional entities in the energy field.",
+    "longDescription": "",
+    "image": "/images/PMS.jpg",
     "tags": ["Management", "Risk analysis"],
     "type": "Team of 7",
     "scholar": true,
     "startDate": "02/2023",
-    "endDate": "12/2023",
+    "endDate": "09/2023",
     "githubLink": null
   },
   {
     "id": 1,
     "title": "Zoglu",
-    "summary": "blabla",
+    "summary": "Network and infrastructure overhaul of a fictive company.",
     "longDescription": "This is a really long description",
-    "image": "https://picsum.photos/200",
+    "image": "/images/Zoglu.jpg",
     "tags": ["Infrastructure", "Risk analysis", "Networks", "Telecoms"],
     "type": "Team of 8",
     "scholar": true,
@@ -35,7 +35,7 @@
     "type": "Solo",
     "scholar": false,
     "startDate": "02/2023",
-    "endDate": "12/2023",
+    "endDate": null,
     "githubLink": null
   },
   {
@@ -48,20 +48,20 @@
     "type": "Solo",
     "scholar": false,
     "startDate": "02/2023",
-    "endDate": "12/2023",
+    "endDate": null,
     "githubLink": null
   },
   {
     "id": 4,
     "title": "GCC: Geared Camera in C",
-    "summary": "blabla",
+    "summary": "Geared Camera In C is an intelligent motorized camera support to keep people in focus.",
     "longDescription": "This is a really long description",
     "image": "https://picsum.photos/200",
     "tags": ["Low-level", "ASM", "C"],
     "type": "Team of 4",
     "scholar": true,
-    "startDate": "02/2023",
-    "endDate": "12/2023",
-    "githubLink": null
+    "startDate": "01/2021",
+    "endDate": "05/2021",
+    "githubLink": "https://github.com/thurayash/GearedCameraInC"
   }
 ]

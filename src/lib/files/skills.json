@@ -1,0 +1,36 @@
+{
+  "programmingLanguages": [
+    "C",
+    "C++",
+    "Java",
+    "Python",
+    "JavaScript/TypeScript",
+    "Rust",
+    "C#",
+    "Bash",
+    "ASM(x86)",
+    "HTML/CSS",
+    "PostgreSQL"
+  ],
+  "tools": [
+    "Git/GitHub/GitLab/BitBucket",
+    "Actions (CI/CD)",
+    "Ansible",
+    "pfSense",
+    "0365 pack",
+    "Jira",
+    "Slack",
+    "Photoshop"
+  ],
+  "frameworks": [
+    "React",
+    "NextJS",
+    "Svelte(Kit)",
+    "NodeJS"
+  ],
+  "languages": [
+    "English (proficient: TOEIC 985/990 - C1)",
+    "French (native)",
+    "Spanish (intermediate - B2)"
+  ]
+}

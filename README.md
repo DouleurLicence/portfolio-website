@@ -40,3 +40,8 @@ You can preview the production build with `npm run preview`.
 ## Projects
 
 To add a project to the website, please follow the template in `files/projects.json`.
+> Please do not forget to set the tags settings in `files/tagSettings.json` if you create a new tag, otherwise the `Projects` page will not be displayed.
+
+## Main page (About me)
+
+This page is generated from the `files/skills.json` and `files/professionalExperience.json` files. To update those things, update the JSON files.

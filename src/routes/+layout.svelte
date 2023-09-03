@@ -93,7 +93,7 @@
 				<!-- TODO: Insert CrouzyCorp mail here -->
 				<a
 					class="btn btn-sm variant-ghost-surface"
-					href="mailto:tt@test.com"
+					href="mailto:maxencecrouzy2001@gmail.com"
 					target="_blank"
 					rel="noreferrer"
 				>

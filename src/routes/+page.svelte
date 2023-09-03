@@ -1,4 +1,16 @@
-<div class="container h-full mx-auto flex justify-center items-center">
+<script lang="ts">
+	import skills from "/src/lib/files/skills.json";
+
+	function toTitleCase(str: string) {
+		const result = str.replace(/([A-Z])/g, " $1")
+		const finalResult =	result.charAt(0).toUpperCase() + result.slice(1);
+
+		return finalResult
+	}
+
+</script>
+
+<div class="container h-[100vh] mx-auto flex justify-center items-center">
 	<div class="space-y-10 text-center flex flex-col items-center">
 		<h2 class="h2">Welcome to CrouzyCorp.</h2>
 		<!-- Animated Logo -->
@@ -29,9 +41,55 @@
 	</div>
 </div>
 
-<div class="container h-full mx-auto flex justify-center items-center">
+<!-- h-full can be added -->
+<div class="container mx-auto flex justify-center items-center">
 	<div class="space-y-10 text-center flex flex-col items-center">
-		test
+
+		<!-- My name is Maxence Crouzy, and I'm a French computer scientist. -->
+
+		<!-- About me -->
+		<section id="about_me" class="">
+			<h1 class="h1">About me</h1>
+			<p>
+				I am Maxence Crouzy, a Computer Science student at EPITA, located in Paris, France. I have a insatiable curiosity for all things related to IT, programming, and development. I am currently majoring in cybersecurity, systems and networks.<br>
+				But I'm more than that! I love swimming, knitting, human psychology and debating about all sort of things.<br>
+				I'm currently looking for an end-of-studies internship/job outside of France, so do not hesitate to <a class="anchor" href="/contact">contact me</a>!
+			</p>
+		</section>
+
+		<!-- Skills -->
+		<section id="skills" class="section">
+			<h1 class="h1 m-8">Skills</h1>
+			<div class="sm:flex-col">
+				{#each Object.entries(skills) as [skillKey, skillValue]}
+					<div class="flex items-center justify-start text-end">
+						<h2 class="h3">{toTitleCase(skillKey)}</h2>
+						<div class="divider-vertical h-20"></div>
+						<div class="">
+							{#each skillValue as item}
+								<div class="badge variant-filled m-[1px]">{item}</div>
+							{/each}
+						</div>
+						<hr/>
+					</div>
+				{/each}
+			</div>
+		</section>
+
+		<!-- Professional experience -->
+		<section id="professional_experience" class="section">
+			<h1 class="h1">Professional experience</h1>
+			<p>
+
+			</p>
+		</section>
+
+		<section id="contact" class="section">
+			<h1 class="h1">Contact</h1>
+			<p>
+				This is my contact info
+			</p>
+		</section>
 	</div>
 </div>
 

@@ -10,13 +10,15 @@
 
 </script>
 
-<div >
+<div class="container w-[95vw] mx-auto flex-col items-center justify-center">
   <h1 class="h1 flex flex-col items-center justify-center m-10">My projects</h1>
 
   <!-- TODO: Create a grid for cards component -->
 
   <!-- School Projects grid -->
-  <hr />
+  <div class="flex items-center justify-center">
+    <hr width="30%"/>
+  </div>
   <h2 class="h2 m-4" >School projects</h2>
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 m-4">
     {#each schoolProjects as project}
