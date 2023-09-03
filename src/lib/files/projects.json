@@ -2,19 +2,66 @@
   {
     "id": 0,
     "title": "PMS",
-    "description": "blabla",
+    "summary": "blabla",
+    "longDescription": "This is a really long description",
     "image": "https://picsum.photos/200",
     "tags": ["Management", "Risk analysis"],
-    "type": "Group-7",
-    "scholar": true
+    "type": "Team of 7",
+    "scholar": true,
+    "startDate": "02/2023",
+    "endDate": "12/2023",
+    "githubLink": null
   },
   {
-    "id": 0,
+    "id": 1,
     "title": "Zoglu",
-    "description": "blabla",
+    "summary": "blabla",
+    "longDescription": "This is a really long description",
     "image": "https://picsum.photos/200",
     "tags": ["Infrastructure", "Risk analysis", "Networks", "Telecoms"],
-    "type": "Group-7",
-    "scholar": true
+    "type": "Team of 8",
+    "scholar": true,
+    "startDate": "02/2023",
+    "endDate": "12/2023",
+    "githubLink": null
+  },
+  {
+    "id": 2,
+    "title": "CrouzyShop",
+    "summary": "blabla",
+    "longDescription": "This is a really long description",
+    "image": "https://picsum.photos/200",
+    "tags": ["Web Dev", "Fullstack"],
+    "type": "Solo",
+    "scholar": false,
+    "startDate": "02/2023",
+    "endDate": "12/2023",
+    "githubLink": null
+  },
+  {
+    "id": 3,
+    "title": "CrouzyCorp",
+    "summary": "blabla",
+    "longDescription": "This is a really long description",
+    "image": "https://picsum.photos/200",
+    "tags": ["Web Dev", "Fullstack"],
+    "type": "Solo",
+    "scholar": false,
+    "startDate": "02/2023",
+    "endDate": "12/2023",
+    "githubLink": null
+  },
+  {
+    "id": 4,
+    "title": "GCC: Geared Camera in C",
+    "summary": "blabla",
+    "longDescription": "This is a really long description",
+    "image": "https://picsum.photos/200",
+    "tags": ["Low-level", "ASM", "C"],
+    "type": "Team of 4",
+    "scholar": true,
+    "startDate": "02/2023",
+    "endDate": "12/2023",
+    "githubLink": null
   }
 ]

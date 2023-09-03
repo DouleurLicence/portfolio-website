@@ -1,22 +1,42 @@
 [
   {
     "name": "Management",
-    "color": "secondary"
+    "color": "ghost-secondary"
   },
   {
     "name": "Networks",
-    "color": "success"
+    "color": "ghost-success"
   },
   {
     "name": "Infrastructure",
-    "color": "primary"
+    "color": "ghost-primary"
   },
   {
     "name": "Telecoms",
-    "color": "tertiary"
+    "color": "ghost-tertiary"
   },
   {
     "name": "Risk analysis",
-    "color": "error"
+    "color": "ghost-error"
+  },
+  {
+    "name": "Web Dev",
+    "color": "ghost-warning"
+  },
+  {
+    "name": "Fullstack",
+    "color": "ghost-surface"
+  },
+  {
+    "name": "C",
+    "color": "soft-warning"
+  },
+  {
+    "name": "Low-level",
+    "color": "soft-secondary"
+  },
+  {
+    "name": "ASM",
+    "color": "soft-primary"
   }
 ]

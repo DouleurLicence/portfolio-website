@@ -1,6 +1,14 @@
 <script lang="ts">
 	import '../app.postcss';
-	import { AppShell, AppBar, LightSwitch, Drawer, initializeStores } from "@skeletonlabs/skeleton";
+	import {
+		AppShell,
+		AppBar,
+		LightSwitch,
+		Drawer,
+		initializeStores,
+		getModalStore,
+		Modal
+	} from "@skeletonlabs/skeleton";
 
 	// Highlight JS
 	import hljs from 'highlight.js';
@@ -28,18 +36,25 @@
 	// Drawer init
 	import { getDrawerStore } from "@skeletonlabs/skeleton";
 	import Footer from "../lib/components/Footer.svelte";
+
 	initializeStores();
+
 	const drawerStore = getDrawerStore();
 
 	function drawerOpen() {
 		drawerStore.open({width: "w-50%"});
 	}
+
+	// const modalStore = getModalStore();
 </script>
 
 <!-- Navbar Drawer -->
 <Drawer >
 	<Navbar />
 </Drawer>
+
+<!-- Modal import -->
+<Modal />
 
 <!-- App Shell -->
 <AppShell>
