@@ -1,0 +1,24 @@
+[
+  {
+    "company": "Sentry Software",
+    "startDate": "09/2022",
+    "endDate": "02/2023",
+    "position": "Software Engineer Intern",
+    "achievements": [
+      "Implementation of a monitoring solution using OpenTelemetry in Java in order to optimise companies’ electricity\nbills and carbon footprint",
+      "Creation of dashboards allowing data visualisation for traces, logs and metrics on Datadog",
+      "Documentation and tests"
+    ]
+  },
+  {
+    "company": "Distribution Casino France",
+    "startDate": "06/2021",
+    "endDate": "08/2021",
+    "position": "Confirmed Sales Employee",
+    "achievements": [
+      "Cashiering",
+      "Customer management and support",
+      "Event installation"
+    ]
+  }
+]

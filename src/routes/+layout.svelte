@@ -46,6 +46,10 @@
 	}
 
 	// const modalStore = getModalStore();
+
+	function handleBurgerHover() {
+
+	}
 </script>
 
 <!-- Navbar Drawer -->
@@ -62,13 +66,12 @@
 		<!-- App Bar -->
 		<AppBar>
 			<svelte:fragment slot="lead">
-				<div on:click={drawerOpen} class="lg:hidden">
+				<div on:click={drawerOpen} class="lg:hidden hover:cursor-pointer">
 					<Fa icon={faBars} class="m-2" />
 				</div>
 				<strong class="text-xl uppercase">
 					<a href="/">CrouzyCorp</a>
 				</strong>
-
 			</svelte:fragment>
 
 			<!-- Only displayed for big screens -->

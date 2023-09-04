@@ -50,7 +50,7 @@
 
   <!-- TODO: The footer has to be sticky to the bottom !! -->
   <!-- Footer -->
-  <div>
+  <div class="">
     <hr class=""/>
     <footer class="flex items-center mt-4 place-content-between">
       <span class="badge">

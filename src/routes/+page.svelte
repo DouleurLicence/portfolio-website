@@ -1,5 +1,9 @@
 <script lang="ts">
+	import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+	import Fa from "svelte-fa";
+
 	import skills from "/src/lib/files/skills.json";
+	import jobs from "/src/lib/files/professionalExperience.json"
 
 	function toTitleCase(str: string) {
 		const result = str.replace(/([A-Z])/g, " $1")
@@ -78,14 +82,31 @@
 
 		<!-- Professional experience -->
 		<section id="professional_experience" class="section">
-			<h1 class="h1">Professional experience</h1>
-			<p>
-
-			</p>
+			<h1 class="h1 m-8">Professional experience</h1>
+			<!-- TODO: See with Jules how i can design this shit -->
+			{#each jobs as job}
+				<div class="flex items-center justify-start text-end">
+					<div class="bg-red-500">
+						<h2 class="h3">{job.company}</h2>
+					</div>
+					<div class="divider-vertical h-20"></div>
+					<div class="flex flex-col justify-start items-start">
+						{#each job.achievements as achievement}
+							<div class="">
+								<Fa icon={faArrowRight} />
+								<p class="ml-2">
+									{achievement}
+								</p>
+							</div>
+						{/each}
+					</div>
+					<hr/>
+				</div>
+			{/each}
 		</section>
 
 		<section id="contact" class="section">
-			<h1 class="h1">Contact</h1>
+			<h1 class="h1 m-8">Contact</h1>
 			<p>
 				This is my contact info
 			</p>
